@@ -16,7 +16,7 @@ public class AtmMain {
 		BufferedReader br = new BufferedReader(r);
 		System.out.println("Please enter your name");
 		String name = br.readLine();
-
+        //Debit or Credit?
 		System.out.println("Please enter your PIN");
 		String pin = br.readLine();
 		int y = Integer.parseInt(pin);
